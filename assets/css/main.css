@@ -50,8 +50,8 @@
 .title {
   background-color: #FCB425;
   padding: 1rem 2rem; }
-  .title h1 {
-    color: #ffffff; }
+.title h1 {
+  color: #ffffff; }
 
 ul {
   margin: 0;
@@ -62,13 +62,13 @@ li {
 
 .section {
   background-color: #ffffff; }
-  .section ul {
-    color: #ffffff;
-    list-style: none;
-    text-align: center; }
-    .section ul li {
-      background-color: #3E3F40;
-      padding: 0.5rem; }
+.section ul {
+  color: #ffffff;
+  list-style: none;
+  text-align: center; }
+.section ul li {
+  background-color: #3E3F40;
+  padding: 0.5rem; }
 
 .list {
   padding: 2rem; }
