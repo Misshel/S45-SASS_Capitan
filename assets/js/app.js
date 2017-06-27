@@ -4,7 +4,7 @@ const state={
   alumna: null
 }
 
-const alumnado = $.get('https://laboratoria.cuadra.co:9339/api/v1/students/',(data) =>{
+const alumnado = $.get('http://laboratoria.cuadra.co:9339/api/v1/students/',(data) =>{
   state.alumna = data;
   alumnas(state.alumna);
 });
