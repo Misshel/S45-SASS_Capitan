@@ -13,7 +13,7 @@ const lista = $('ol');
 
 const alumnas = (alumna) =>{
   alumna.forEach((element)=>{
-    const li = $(`<li class="col-4">${element.name}<input type="checkbox"></li> `)
+    const li = $(`<li class="col-12"><span class="col-5">${element.name}</span><input class="col-2"  type="checkbox"></li> `)
     lista.append(li);
 });
 }
