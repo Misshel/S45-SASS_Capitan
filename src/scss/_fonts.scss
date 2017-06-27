@@ -1,9 +1,48 @@
 .title{
-  
+  background-color: $fondo-claro;
+  padding: 1rem 2rem;
+  h1{
+    color: $text;
+  }
 }
 
 ul{
-  li{
+  margin: 0;
+  padding: 0;
+}
 
+li{
+  margin: 0.5em;
+}
+
+.section{
+  background-color: $text;
+
+  ul{
+    color: $text;
+    list-style: none;
+    text-align: center;
+    li{
+      background-color: $fondo-oscuro;
+      padding: 0.5rem;
+    }
   }
+}
+.list{
+  padding: 2rem;
+
+}
+
+.aside{
+  color: $text;
+  background-color: $fondo-oscuro;
+  margin: 2rem;
+  padding: 3rem;
+  text-align: center;
+}
+
+.footer{
+  @extend .aside;
+  margin: 0;
+  padding: 1rem;
 }
